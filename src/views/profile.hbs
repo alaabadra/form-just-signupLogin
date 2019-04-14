@@ -1,0 +1,27 @@
+<section class="container">
+    {{!-- <form action="/add-post" method="post" class="sendPost-form"> --}}
+        <textarea name="post-area" class="post-area" cols="55" rows="5" placeholder="Enter your thoughts"
+            class="post-area"></textarea>
+        <input type="submit" value="Post" class="sendPost-btn">
+    {{!-- </form> --}}
+    <div class="container-posts">
+        {{!-- {{#each posts}}
+    <div class="post">
+        
+        {{this.first_name}}:
+    </div>
+    {{!-- <div class="last">
+        {{this.last_name:}}
+    </div>
+    <div class="postt">
+        {{this.post}}
+    </div>  --}}
+       {{!-- {{/each}}  --}} 
+    <h1 class="start-profile">{{posts.first_name}}</h1>
+    <h1 class="start-profile">{{posts.last_name}}</h1>
+    <h1 class="start-profile">{{posts.details_post}}</h1>
+
+   
+    </div>
+      
+</section>
