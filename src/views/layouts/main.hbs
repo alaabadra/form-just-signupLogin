@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>head}}
+
+<body>
+    {{>header}}
+    <main>
+        {{{body}}}
+    </main>
+    {{>footer}}
+</body>
+    {{#if js}}
+    <script src="js/{{js}}.js"></script>
+    {{/if}}
+    {{!-- {{#elseif jsLogin}}
+    <script src="js/{{jsLogin}}.js"></script> 
+    {{/else}}
+    {{#else}}
+    <script src="js/{{jsProfile}}.js"></script>
+    {{/else}} --}}
+</html>

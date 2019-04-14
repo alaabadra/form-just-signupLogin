@@ -1,0 +1,34 @@
+{
+  "name": "form-just-signupLogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "div":"nodemon ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaabadra/form-just-signupLogin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaabadra/form-just-signupLogin/issues"
+  },
+  "homepage": "https://github.com/alaabadra/form-just-signupLogin#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
